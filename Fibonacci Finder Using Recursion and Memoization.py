@@ -6,9 +6,6 @@ import time
 #Fibonacci sequence : 1, 1, 2, 3, 5, 8, 13, 21, 34,.........
 #The default value of maximum recursion depth is 1000 and it hasn't been altered
 
-#Defining clear() function
-
-
 while True:
 	fibonacci_cache = {}
 
