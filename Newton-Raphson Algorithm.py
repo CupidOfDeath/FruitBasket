@@ -1,4 +1,4 @@
-#Finding the cube root of a given number using Newton-Raphson algorithm
+#Finding the square root of a given number using Newton-Raphson algorithm
 
 x = int(input('Enter the number which you want to find the square root of: '))
 epsilon = 0.01
