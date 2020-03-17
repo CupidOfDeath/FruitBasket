@@ -36,7 +36,8 @@ try:
 		if l_text[index] != l_user_in[index]:
 			error += 1
 
-	wpm = round(((word_number/(end-start))*60) - error)
+	wpm = (((word_number/(end-start))*60))
+	wpm -= ((error/word_number)*wpm)
 	print(f'Your speed was {wpm} wpm and you made {error} errors!')
 
 except IndexError:
